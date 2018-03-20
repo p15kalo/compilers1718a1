@@ -38,7 +38,6 @@ def scan(text,transition_table,accept_states):
 	
 # the transition table, as a dictionary
 
-# Αντικαταστήστε με το δικό σας λεξικό μεταβάσεων...
 td = { 'q0':{ '2':'q2','0':'q3','1':'q3','3':'q1','4':'q1','5':'q1','6':'q1','7':'q1','8':'q1','9':'q1'},
        'q1':{ '.':'q4',':':'q4' },
        'q2':{ '.':'q4','0':'q1','1':'q1','2':'q1','3':'q1',':':'q4' },
@@ -50,7 +49,6 @@ td = { 'q0':{ '2':'q2','0':'q3','1':'q3','3':'q1','4':'q1','5':'q1','6':'q1','7'
 # the dictionary of accepting states and their
 # corresponding token
 
-# Αντικαταστήστε με το δικό σας λεξικό καταστάσεων αποδοχής...
 ad = { 'q6':'TIME_TOKEN' }
 
 
